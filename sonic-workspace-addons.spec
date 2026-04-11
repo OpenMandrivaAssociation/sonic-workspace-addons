@@ -25,7 +25,11 @@ Group: Graphical desktop/SonicDE
 BuildRequires: cmake(ECM)
 BuildRequires: cmake(KF6DNSSD)
 BuildRequires: cmake(KF6DocTools)
-BuildRequires: cmake(KF6CoreAddons)
+
+# pending rename
+# BuildRequires: cmake(KF6CoreAddons)
+BuildRequires: %{_lib}SonicFrameworksCoreAddons-devel
+
 BuildRequires: cmake(KF6DBusAddons)
 BuildRequires: cmake(KF6ConfigWidgets)
 BuildRequires: cmake(KF6IconThemes)
@@ -34,12 +38,15 @@ BuildRequires: cmake(KF6Solid)
 BuildRequires: cmake(KF6KCMUtils)
 BuildRequires: cmake(KF6Svg)
 
-# pening rename
+# pending rename
 # BuildRequires: cmake(Plasma) >= 5.90.0
+# BuildRequires: cmake(PlasmaQuick)
 BuildRequires: %{_lib}SonicDE-devel
 
-BuildRequires: cmake(PlasmaQuick)
-BuildRequires: cmake(KF6Runner)
+# pending rename
+# BuildRequires: cmake(KF6Runner)
+BuildRequires: %{_lib}SonicFrameworksRunner-devel
+
 BuildRequires: cmake(KF6NewStuff)
 
 # pending rename
