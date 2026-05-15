@@ -11,7 +11,7 @@
 #define libweather %mklibname plasmaweather %{libweather_major}
 
 Name: sonic-workspace-addons
-Version: 6.6.4
+Version: 6.6.5
 Release: %{?git:0.%{git}.}1
 URL:     https://github.com/Sonic-DE/sonic-workspace-addons
 # %if 0%{?git:1}
@@ -28,12 +28,14 @@ BuildRequires: cmake(KF6DocTools)
 
 # pending rename
 # BuildRequires: cmake(KF6CoreAddons)
+# BuildRequires: cmake(KF6KIO)
 BuildRequires: %{_lib}SonicFrameworksCoreAddons-devel
+BuildRequires: %{_lib}SonicFramworksIO-devel
 
 BuildRequires: cmake(KF6DBusAddons)
 BuildRequires: cmake(KF6ConfigWidgets)
 BuildRequires: cmake(KF6IconThemes)
-BuildRequires: cmake(KF6KIO)
+
 BuildRequires: cmake(KF6Solid)
 BuildRequires: cmake(KF6KCMUtils)
 BuildRequires: cmake(KF6Svg)
