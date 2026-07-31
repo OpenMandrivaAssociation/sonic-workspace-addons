@@ -11,7 +11,7 @@
 #define libweather %mklibname plasmaweather %{libweather_major}
 
 Name: sonic-workspace-addons
-Version: 6.6.5
+Version: 6.7.3
 Release: %{?git:0.%{git}.}1
 URL:     https://github.com/Sonic-DE/sonic-workspace-addons
 # %if 0%{?git:1}
