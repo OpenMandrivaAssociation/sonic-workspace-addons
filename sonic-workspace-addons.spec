@@ -159,3 +159,8 @@ rm -rf	%{buildroot}%{_libdir}/libplasmapotdprovidercore.so \
 %{_datadir}/kwin/scripts/virtualdesktopsonlyonprimary/contents/code/main.js
 %{_datadir}/kwin/scripts/virtualdesktopsonlyonprimary/metadata.json
 %{_datadir}/plasma/wallpapers/org.kde.tiled
+%{_libdir}/cmake/PlasmaWeather
+%{_libdir}/libexec/kf6/kameleon-qmk-helper
+%{_datadir}/dbus-1/system-services/org.kde.kameleon.qmk.helper.service
+%{_datadir}/dbus-1/system.d/org.kde.kameleon.qmk.helper.conf
+%{_datadir}/polkit-1/actions/org.kde.kameleon.qmk.helper.policy
