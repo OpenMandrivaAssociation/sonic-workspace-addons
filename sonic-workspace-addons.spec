@@ -30,7 +30,7 @@ BuildRequires: cmake(KF6DocTools)
 # BuildRequires: cmake(KF6CoreAddons)
 # BuildRequires: cmake(KF6KIO)
 BuildRequires: %{_lib}SonicFrameworksCoreAddons-devel
-BuildRequires: %{_lib}SonicFramworksIO-devel
+BuildRequires: %{_lib}SonicFrameworksIO-devel
 
 BuildRequires: cmake(KF6DBusAddons)
 BuildRequires: cmake(KF6ConfigWidgets)
